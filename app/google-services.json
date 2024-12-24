@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483693976225",
+    "project_id": "notepassapp-3ce9b",
+    "storage_bucket": "notepassapp-3ce9b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483693976225:android:811d21883a0e1e9d9feee0",
+        "android_client_info": {
+          "package_name": "com.example.notepassapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvmU1wAyxrPgn2NL8rAiwUbgnlyrmhE5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
