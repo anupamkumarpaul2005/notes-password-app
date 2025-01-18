@@ -40,6 +40,8 @@ class LoginActivity : AppCompatActivity() {
                             // Login successful, navigate to the main screen
                             Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show()
                             // Start the main activity or home screen here
+                            val intent = Intent(this, NotesActivity::class.java)
+                            startActivity(intent)
                         } else {
                             // Login failed, show a message to the user
                             Toast.makeText(this, "Authentication failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()

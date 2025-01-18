@@ -53,6 +53,12 @@ class NotesActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        loadNotes() // Refresh notes whenever the activity resumes
+    }
+
+
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_account -> {

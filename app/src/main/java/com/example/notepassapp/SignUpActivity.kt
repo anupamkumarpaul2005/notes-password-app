@@ -41,6 +41,8 @@ class SignUpActivity : AppCompatActivity() {
                             // Login successful, navigate to the main screen
                             Toast.makeText(this, "Sign Up successful", Toast.LENGTH_SHORT).show()
                             // Start the main activity or home screen here
+                            val intent = Intent(this, LoginActivity::class.java)
+                            startActivity(intent)
                         } else {
                             val exception = task.exception
                             if (exception is FirebaseAuthUserCollisionException) {
